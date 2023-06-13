@@ -5,7 +5,7 @@
 
 ## Motivation:
 
-I believe that the ultimate goal of data science will always be to generate feedback for society, thus the use of this science in healthcare fields is an extremely important topic and has several relevant readings and uses for society. In light of this, while studying the field of EDA (Exploratory Data Analysis) further, I decided to seek a source of data in the healthcare field to create a data science project.
+I strongly believe that the primary objective of data science is to contribute to society by providing valuable insights. Therefore, the application of data science in the healthcare industry holds immense significance and offers numerous benefits to society. With this in mind, as I delve deeper into the field of data science, I have chosen to explore healthcare data as the foundation for my data science project. My project aims to encompass various components, including Exploratory Data Analysis, developing a classification Machine Learning Model, and deploying the model through a Streamlit web application. By undertaking this project, I aim to harness the power of data science to generate meaningful outcomes in the healthcare sector.
 
 ## Goals:
 
