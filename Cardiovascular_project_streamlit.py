@@ -1,3 +1,15 @@
+import subprocess
+
+def install_packages(packages):
+    for package in packages:
+        subprocess.check_call(['pip', 'install', package])
+
+# Lista de pacotes a serem instalados
+required_packages = ['scikit-learn', 'numpy', 'pandas', 'streamlit']
+
+# Instalar os pacotes necessários
+install_packages(required_packages)
+
 import streamlit as st
 import pickle
 import pandas as pd
