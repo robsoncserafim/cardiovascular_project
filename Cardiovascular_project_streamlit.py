@@ -7,7 +7,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 
 # Função para carregar o modelo
 def load_model():
-    with open('gbm_model_v2.pkl', 'rb') as file:
+    with open('gbm_model.pkl', 'rb') as file:
         model = pickle.load(file)
     return model
 
@@ -19,7 +19,6 @@ def predict(model, input_data):
 # Função para calcular o BMI
 def calculate_bmi(height, weight):
     if height == 0:
-        st.error("Altura inválida. Certifique-se de inserir a altura em centímetros.")
         return None
     bmi = weight / ((height / 100) ** 2)
     return bmi
