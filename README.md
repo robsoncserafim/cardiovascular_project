@@ -1,4 +1,4 @@
-# Cardio Vascular Project
+# Cardiovascular Disease Prediction Project
 **Classification Machine Learning Project** of a  cardiovascular diseases dataset.
 
 ![cardiovascular_imag01](https://user-images.githubusercontent.com/99512194/175938528-d1c25734-c7cf-4050-9268-9237180a3f7b.png)
@@ -10,7 +10,7 @@ I strongly believe that the primary objective of data science is to contribute t
 ## Goals:
 
 Cardio Vascular Disease its a relevant data source that relates risk factors and cardiovascular disease. Facing the fact that, according to the World Health Organization (WHO), cardiovascular diseases are the leading cause of death in the world, causing the death of about 17.7 million people every year, I chose this dataset to develop an exploratory analysis.
-The dataset used is called **Cardio Vascular Disease dataset** and the project created was based on implementing an exploratory analysis aiming to demonstrate and provide insights about different variables related to the presence of heart diseases in the analyzed patients. 
+The dataset used is called **Cardiovascular Disease dataset** and the project created was based on implementing an exploratory analysis aiming to demonstrate and provide insights about different variables related to the presence of heart diseases in the analyzed patients. 
 To achieve this goal, I used the programming language **Python**, libraries for data analysis such as **pandas** and **numpy** and for graphical visualization I used mainly the libraries **matplotlib** and **seaborn**. 
 
 Furthermore, the main goal of the project was to use a **Classification Machine Learning Model** to predict whether the patient has (flag 1) or not (flag 0) cardiovascular disease, based on all his health parameters present in the dataset. The classification model chosen for the problem was the **Random Forest.**
