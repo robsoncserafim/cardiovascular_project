@@ -7,7 +7,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 
 # Função para carregar o modelo
 def load_model():
-    with open('gbm_model.pkl', 'rb') as file:
+    with open('gbm_model_v2.pkl', 'rb') as file:
         model = pickle.load(file)
     return model
 
@@ -34,7 +34,6 @@ def main():
     # Título do aplicativo
     st.image("https://agm.org.br/wp-content/uploads/2017/10/03102017_divulgacao_doenca_cardiaca.jpg", width=400)
     st.title("Aplicativo de Previsão Cardiovascular")
-
 
     # Formulário para entrada de dados
     st.header("Insira os valores das colunas:")
@@ -91,4 +90,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
