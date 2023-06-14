@@ -13,7 +13,7 @@ Cardio Vascular Disease its a relevant data source that relates risk factors and
 The dataset used is called **Cardiovascular Disease dataset** and the project created was based on implementing an exploratory analysis aiming to demonstrate and provide insights about different variables related to the presence of heart diseases in the analyzed patients. 
 To achieve this goal, I used the programming language **Python**, libraries for data analysis such as **pandas** and **numpy** and for graphical visualization I used mainly the libraries **matplotlib** and **seaborn**. 
 
-Furthermore, the main goal of the project was to use a **Classification Machine Learning Model** to predict whether the patient has (flag 1) or not (flag 0) cardiovascular disease, based on all his health parameters present in the dataset. The classification model chosen for the problem was the **Random Forest.**
+Furthermore, the main goal of the project was to use a **Classification Machine Learning Model** to predict whether the patient has (flag 1) or not (flag 0) cardiovascular disease, based on all his health parameters present in the dataset. The classification model chosen for the problem was the **Random Forest and Gradient Boosting Machine.**
 
 ### Author
 Robson de Castro Serafim
