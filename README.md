@@ -1,5 +1,5 @@
 # Cardio Vascular Project
-**Exploratory data analysis (EDA)** of a  cardio vascular diseases dataset and **Classification Machine Learning Problem.**
+**Classification Machine Learning Project** of a  cardiovascular diseases dataset.
 
 ![cardiovascular_imag01](https://user-images.githubusercontent.com/99512194/175938528-d1c25734-c7cf-4050-9268-9237180a3f7b.png)
 
