@@ -37,10 +37,10 @@ The healthcare industry is one area where the application of data science holds 
 The web application provides an easy-to-navigate interface where you can explore different aspects of the project. 
 ### So, how to navigate in this app?
 
-- Exploratory Data Analysis:
+**- Exploratory Data Analysis:**
     - The Exploratory Data Analysis section presents statitical insights and visualizations using popular libraries such as Seaborn, Plotly, and Matplotlib. These visualizations help us to understanding the data and gaining insights from it.
 
-- Machine Learning:
+**- Machine Learning:**
     - Classification Machine Learning Model that utilizes Gradient Boosting to predict the presence or absence of a Cardiovascular disease. This model leverages the power of data to make accurate predictions and assist in healthcare decision-making.
 
 
