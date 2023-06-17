@@ -3,18 +3,27 @@ from PIL import Image
 
 st.set_page_config(
     page_title = 'Home',
+    page_icon="👋",
     layout='wide'
 )
 
+st.write("#### Welcome to my Streamlit Project! 👋")
 
-image = Image.open ('cardio_image.png')
+image = Image.open ('images/cardio_image.png')
 st.sidebar.image (image, width=250)
 
-st.sidebar.markdown ('# Menu ')
+st.sidebar.markdown ('# Cardiovascular Disease - Data Science Project')
+
+st.sidebar.markdown ('#### by Robson Serafim')
+cols1, cols2, cols3 = st.sidebar.columns(3)
+
+cols1.markdown("[![Title](https://img.icons8.com/?size=1x&id=13930&format=png)](https://www.linkedin.com/in/robson-castro-serafim/)")
+cols2.markdown("[![Title](https://img.icons8.com/material-outlined/48/000000/github.png)](https://www.gitshowcase.com/robsoncserafim)")
+cols3.markdown("[![Title](https://img.icons8.com/?size=1x&id=XVNvUWCvvlD9&format=png)](https://medium.com/@robson.serafim)")
 
 # Page Title
 st.title("Cardiovascular Disease Project")
-image = Image.open ('cardio_image_EDA.jpg')
+image = Image.open ('images/cardio_image_EDA.jpg')
 # Insert image
 st.image(image, width=800)
 
