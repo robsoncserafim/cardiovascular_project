@@ -45,7 +45,7 @@ The web application provides an easy-to-navigate interface where you can explore
 
 
 #### Feel free to explore and interact with the application! 
-#### It provides an opportunity to gain insights, analyze the dataset, and experience the predictive capabilities of the deployed Machine Learning Model.
+#### It provides an opportunity to gain insights and experience the predictive capabilities of the deployed Machine Learning Model.
 
      
 """)
