@@ -58,7 +58,7 @@ def preprocess_data(df):
 # ----- Data import and processing ------ #
 
 # Load the data
-df= pd.read_csv('../dataset/cardio_disease_dataset.csv', delimiter = ';', nrows = None)  # Replace 'your_dataset.csv' with your actual dataset filename
+df= pd.read_csv('dataset/cardio_disease_dataset.csv', delimiter = ';', nrows = None)  # Replace 'your_dataset.csv' with your actual dataset filename
 
 # Preprocess the data
 df = preprocess_data(df)
@@ -75,7 +75,7 @@ st.set_page_config(
 )
 
 # Sidebar
-image = Image.open ('../images/cardio_image.png')
+image = Image.open ('images/cardio_image.png')
 
 st.sidebar.markdown ("## Please select the checkboxes listed to explore the data:")
 st.sidebar.image (image, width=100)
@@ -98,7 +98,7 @@ show_graph6= st.sidebar.checkbox("Correlation matrix between all features")
 
 # Page Title
 st.title("Exploratory Data Analysis")
-image = Image.open ('../images/cardio_binary.jpg')
+image = Image.open ('images/cardio_binary.jpg')
 # Insert image
 st.image(image, width=550)
 
