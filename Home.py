@@ -44,7 +44,8 @@ The web application provides an easy-to-navigate interface where you can explore
     - Classification Machine Learning Model that utilizes Gradient Boosting to predict the presence or absence of a Cardiovascular disease. This model leverages the power of data to make accurate predictions and assist in healthcare decision-making.
 
 
-#### Feel free to explore and interact with the application! It provides an opportunity to gain insights, analyze the dataset, and experience the predictive capabilities of the deployed Machine Learning Model.
+#### Feel free to explore and interact with the application! 
+#### It provides an opportunity to gain insights, analyze the dataset, and experience the predictive capabilities of the deployed Machine Learning Model.
 
      
 """)
