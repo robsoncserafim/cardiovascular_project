@@ -88,7 +88,7 @@ show_graph2 = st.sidebar.checkbox("Age frequency on the dataframe")
 show_graph3= st.sidebar.checkbox("Relationshipg between Age and Cardiovascular disease")
 show_graph4= st.sidebar.checkbox("Gender and the presence of Cardiovascular disease")
 show_graph5= st.sidebar.checkbox("Cholesterol and Glucose levels")
-show_graph6= st.sidebar.checkbox("Correlation matrix between all features")
+#show_graph6= st.sidebar.checkbox("Correlation matrix between all features")
 
 #=========================================================#
 #------------- Exploratory Data Analysis ---------------- #
@@ -317,11 +317,11 @@ if show_graph5:
 # - Correlation between all features - #
 ########################################
 
-if show_graph6:
+#if show_graph6:
 
-    st.subheader("Correlation matrix between all features")
-    plt.figure(figsize=(10, 8))
-    sns.heatmap(df.corr(), annot=True, fmt='.0%', cmap='YlGnBu')
-    plt.title('Correlation between features', fontsize = 14);
+    #st.subheader("Correlation matrix between all features")
+    #plt.figure(figsize=(10, 8))
+    #sns.heatmap(df.corr(), annot=True, fmt='.0%', cmap='YlGnBu')
+    #plt.title('Correlation between features', fontsize = 14);
 
-    st.pyplot(plt.gcf())
+    #st.pyplot(plt.gcf())
