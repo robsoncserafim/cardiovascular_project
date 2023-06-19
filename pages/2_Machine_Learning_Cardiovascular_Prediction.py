@@ -39,7 +39,7 @@ def main():
     st.title("Aplicativo de Previsão Cardiovascular")
 
     # Formulário para entrada de dados
-    st.header("Enter the values for the columns::")
+    st.header("Enter the patient's data in the following fields:")
     age = st.slider("Age (in years)", 1, 100)
     gender_options = {"Male": 1, "Female": 2}
     gender = st.selectbox("Gender", list(gender_options.keys()))
@@ -56,7 +56,7 @@ def main():
     alco_options = {"No": 0, "Yes": 1}
     alco = st.selectbox("Regular consumption of alcohol", list(alco_options.keys()))
     active_options = {"No": 0, "Yes": 1}
-    active = st.selectbox("regular physical activity", list(active_options.keys()))
+    active = st.selectbox("Regular physical activity", list(active_options.keys()))
 
     # Calcular o BMI
     bmi = calculate_bmi(height, weight)
