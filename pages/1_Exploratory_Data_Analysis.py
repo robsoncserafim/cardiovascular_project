@@ -230,7 +230,7 @@ if show_graph3:
     st.pyplot(plt.gcf())
 
     # Conclusion
-    st.write("The representation demonstrates a **turnaround that occurs after the age of 50**, when the number of patients **with heart disease exceeds the number of patients without heart disease** in the sample.")
+    st.write("The representation demonstrates a **turnaround that occurs after the age of 53**, when the number of patients **with heart disease exceeds the number of patients without heart disease** in the sample.")
 
 ############################
 # ----- Feature Gender ------ #
