@@ -36,7 +36,7 @@ def main():
 )
     # Título do aplicativo
     st.image("https://agm.org.br/wp-content/uploads/2017/10/03102017_divulgacao_doenca_cardiaca.jpg", width=200)
-    st.title("Aplicativo de Previsão Cardiovascular")
+    st.title("Cardiovascular Disease Prediction Application")
 
     # Formulário para entrada de dados
     st.header("Enter the patient's data in the following fields:")
