@@ -85,11 +85,11 @@ def main():
         prediction = predict(model, input_data)
 
         # Exibir resultado da previsão
-        st.header("Prediction Result")
+        st.header("## Prediction Result")
         if prediction[0] == 0:
-            st.write("**Low** Cardiovascular Risks")
+            st.write("### Low Cardiovascular Risks")
         else:
-            st.write("**High** Cardiovascular Risks")
+            st.write("### High Cardiovascular Risks")
 
 if __name__ == "__main__":
     main()
