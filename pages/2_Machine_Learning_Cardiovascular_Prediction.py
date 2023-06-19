@@ -87,9 +87,9 @@ def main():
         # Exibir resultado da previsão
         st.header("Prediction Result")
         if prediction[0] == 0:
-            st.write("#### Low Cardiovascular Risks")
+            st.write("#### Low risk of having Cardiovascular disease.")
         else:
-            st.write("#### High Cardiovascular Risks")
+            st.write("#### High risk of having Cardiovascular disease.")
 
 if __name__ == "__main__":
     main()
