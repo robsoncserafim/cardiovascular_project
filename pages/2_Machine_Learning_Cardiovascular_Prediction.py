@@ -39,24 +39,24 @@ def main():
     st.title("Aplicativo de Previsão Cardiovascular")
 
     # Formulário para entrada de dados
-    st.header("Insira os valores das colunas:")
-    age = st.slider("Idade (em anos)", 1, 100)
-    gender_options = {"Masculino": 1, "Feminino": 2}
-    gender = st.selectbox("Gênero", list(gender_options.keys()))
-    height = st.number_input("Altura (em cm)", format="%f")
-    weight = st.number_input("Peso (em kg)", format="%f")
-    ap_hi = st.number_input("Pressão Sistólica (ap_hi) em mmHg", format="%f")
-    ap_lo = st.number_input("Pressão Diastólica (ap_lo) em mmHg", format="%f")
-    cholesterol_options = {"Normal": 1, "Acima do Normal": 2, "Muito Acima do Normal": 3}
-    cholesterol = st.selectbox("Colesterol", list(cholesterol_options.keys()))
-    gluc_options = {"Normal": 1, "Acima do Normal": 2, "Muito Acima do Normal": 3}
-    gluc = st.selectbox("Glicose", list(gluc_options.keys()))
-    smoke_options = {"Não": 0, "Sim": 1}
-    smoke = st.selectbox("Fumante", list(smoke_options.keys()))
-    alco_options = {"Não": 0, "Sim": 1}
-    alco = st.selectbox("Consumo de Álcool", list(alco_options.keys()))
-    active_options = {"Não": 0, "Sim": 1}
-    active = st.selectbox("Atividade Física", list(active_options.keys()))
+    st.header("Enter the values for the columns::")
+    age = st.slider("Age (in years)", 1, 100)
+    gender_options = {"Male": 1, "Female": 2}
+    gender = st.selectbox("Gender", list(gender_options.keys()))
+    height = st.number_input("Height (in cm)", format="%f")
+    weight = st.number_input("Weight (in kg)", format="%f")
+    ap_hi = st.number_input("Systolic Blood Pressure (ap_hi) in mmHg", format="%f")
+    ap_lo = st.number_input("Diastolic Blood Pressure (ap_lo) in mmHg", format="%f")
+    cholesterol_options = {"Normal": 1, "Above Normal": 2, " Well Above Normal": 3}
+    cholesterol = st.selectbox("Cholesterol", list(cholesterol_options.keys()))
+    gluc_options = {"Normal": 1, "Above Normal": 2, " Well Above Normal": 3}
+    gluc = st.selectbox("Glucose", list(gluc_options.keys()))
+    smoke_options = {"No": 0, "Yes": 1}
+    smoke = st.selectbox("Regular smoker", list(smoke_options.keys()))
+    alco_options = {"No": 0, "Yes": 1}
+    alco = st.selectbox("Regular consumption of alcohol", list(alco_options.keys()))
+    active_options = {"No": 0, "Yes": 1}
+    active = st.selectbox("regular physical activity", list(active_options.keys()))
 
     # Calcular o BMI
     bmi = calculate_bmi(height, weight)
@@ -80,16 +80,16 @@ def main():
     })
 
     # Botão para avaliar o risco do paciente ter doença cardiovascular
-    if st.button("Avaliar risco do paciente ter doença cardiovascular"):
+    if st.button("Evaluate the patient's risk of cardiovascular disease"):
         # Prever a classe
         prediction = predict(model, input_data)
 
         # Exibir resultado da previsão
-        st.header("Resultado da Previsão")
+        st.header("Prediction Result")
         if prediction[0] == 0:
-            st.write("Risco Cardiovascular Baixo")
+            st.write("**Low** Cardiovascular Risks")
         else:
-            st.write("Risco Cardiovascular Alto")
+            st.write("**High** Cardiovascular Risks")
 
 if __name__ == "__main__":
     main()
