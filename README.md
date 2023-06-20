@@ -2,7 +2,7 @@
 
 **Classification Machine Learning Project** of a  cardiovascular diseases dataset.
 
-**- Feel free to explore and thest the web application of the Project:** https://cardiovascular-datascience-robsonserafim.streamlit.app/
+**Web application of the Project:** https://cardiovascular-datascience-robsonserafim.streamlit.app/
 
 
 
