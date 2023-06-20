@@ -7,7 +7,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 
 # Função para carregar o modelo
 def load_model():
-    with open('gbm_model.pkl', 'rb') as file:
+    with open('xgb_model.pkl', 'rb') as file:
         model = pickle.load(file)
     return model
 
