@@ -8,3 +8,5 @@ plotly==5.13.0
 scikit-learn==1.2.2
 seaborn==0.11.1
 xgboost==1.7.5
+altair
+vega-lite>=4.0.0
